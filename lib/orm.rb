@@ -2,6 +2,7 @@ $LOAD_PATH.unshift(File.expand_path(File.dirname(__FILE__))) unless $LOAD_PATH.i
 
 require 'rubygems'
 require 'active_support'
+require 'active_support/core_ext'
 require 'nokogiri'
 require 'uuid'
 
